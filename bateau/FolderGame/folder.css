@@ -1,0 +1,15 @@
+.red-square {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.green-square {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

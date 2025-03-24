@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shield Game</title>
+    <link rel="stylesheet" href="ShieldGame.css">
+    <script src="ShieldGame.js"></script>
+</head>
+<body>
+    <h1>Shield Game</h1>
+    <h2>RÉSEAU DE CÂBLAGE</h2>
+    
+    <div class="stats">
+        <div class="stat-box">Temps: <span id="time">00:00</span></div>
+        <div class="stat-box">Mouvements: <span id="moves">0</span></div>
+    </div>
+    
+    <div class="game-container" id="gameGrid"></div>
+    
+    <div class="status" id="status">Connectez la batterie au bouclier!</div>
+    
+    <div>
+        <button id="resetBtn">RÉINIRIALISER</button>
+        <button id="newGameBtn">NOUVEAU JEU</button>
+    </div>
+    
+    <div class="end-screen" id="endScreen">
+        <div class="end-content">
+            <div class="end-title" id="endTitle">Mission Accomplie!</div>
+            <div class="end-stats">
+                Temps: <span id="finalTime">00:00</span><br>
+                Mouvements: <span id="finalMoves">0</span>
+            </div>
+            <div id="endMessage">Vous avez réussi à alimenter le bouclier!</div>
+            <div class="end-buttons">
+                <button id="playAgainBtn">Rejouer</button>
+                <button id="quitBtn">Quitter</button>
+            </div>
+        </div>
+    </div>
+    
+    
+       
+</body>
+</html>
